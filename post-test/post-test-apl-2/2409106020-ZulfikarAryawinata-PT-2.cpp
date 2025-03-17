@@ -79,7 +79,8 @@ int main() {
                          << setw(10) << stok[i] << endl;
                 }
             }
-        } else if (pilihan == 2) {
+        } 
+        else if (pilihan == 2) {
             if (jumlah >= 100) {
                 cout << "(X)Data penuh! Tidak bisa menambahkan lagi." << endl;
             } else {
@@ -94,7 +95,8 @@ int main() {
                 cout << "==Data Berhasil Ditambahkan!==" << endl;
                 cin.ignore();
             }
-        } else if (pilihan == 3) {
+        } 
+        else if (pilihan == 3) {
             string nama_hotwheels_edit;
             cout << "Masukkan Nama HotWheels yang ingin diubah datanya : ";
             getline(cin, nama_hotwheels_edit);
@@ -114,7 +116,8 @@ int main() {
                     cout << endl;
                 }
             }
-        } else if (pilihan == 4) {
+        } 
+        else if (pilihan == 4) {
             string nama_hotwheels_hapus;
             cout << endl;
             cout << "<=>|Masukkan Nama HotWheels yang ingin dihapus : ";
@@ -138,11 +141,13 @@ int main() {
                     cout << "==Data Tidak Ditemukan==";
                 }
             }
-        } else if (pilihan == 5) {
+        } 
+        else if (pilihan == 5) {
             cout << endl;
             cout << "==Program Ditutup==" << endl;
             break;
-        } else {
+        } 
+        else {
             cout << "Pilihan tidak valid!" << endl;;
         }
     }
