@@ -1,1 +1,0 @@
-jumlah_pesan
