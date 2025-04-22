@@ -1,0 +1,1 @@
+cout << bPtr <<endl;
